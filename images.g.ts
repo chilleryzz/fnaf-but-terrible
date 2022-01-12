@@ -3,6 +3,172 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
+            case "image2":
+            case "leftDoorClosed":return img`
+..................8
+.................88
+...............8888
+.............888888
+............8888888
+..........888888888
+........88888888888
+......8888888888888
+.....88888888888888
+...8888888888888888
+.888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888885558
+8888888888888855858
+8888888888888558558
+8888888888885585558
+8888888888855585558
+8888888888555855558
+8888888855555855558
+8888888555558555558
+8888885555585555558
+8888855555585555558
+8885555555855555558
+8855555555855555558
+8588885558555555558
+8555558888888855558
+8555555585555588858
+855555585555555558.
+85555558555555888..
+855555855555588....
+85555585555588.....
+8555585555588......
+855585555888.......
+85558555888........
+855855588..........
+85585588...........
+8585588............
+885888.............
+88888..............
+888................
+88.................
+8..................
+`;
+            case "image3":
+            case "rightDoorClosed":return img`
+8..................
+88.................
+8888...............
+888888.............
+8888888............
+888888888..........
+88888888888........
+8888888888888......
+88888888888888.....
+8888888888888888...
+888888888888888888.
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8888888888888888888
+8555888888888888888
+8585588888888888888
+8558558888888888888
+8555855888888888888
+8555855588888888888
+8555585558888888888
+8555585555588888888
+8555558555558888888
+8555555855555888888
+8555555855555588888
+8555555585555555888
+8555555585555555588
+8555555558555888858
+8555588888888555558
+8588855555855555558
+.855555555585555558
+..88855555585555558
+....885555558555558
+.....88555558555558
+......8855555855558
+.......888555585558
+........88855585558
+..........885558558
+...........88558558
+............8855858
+.............888588
+..............88888
+................888
+.................88
+..................8
+`;
             case "image1":
             case "bg":return img`
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
@@ -48,23 +214,23 @@ bbbfffffffffffffffffffbbbbbbbbffffffffffffffffffffffffffffffffffffffffffffffffff
 bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
 bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
 bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
-bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
+bbbfffffffffffffffffffbbbbbbbfeeffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffeefbbbbbbbbbbbbfffffffffffffffffffbbb
 bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
 bbbfffffffffffffffffffbbbbbbbfeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefbbbbbbbbbbbbfffffffffffffffffffbbb
 bbbfffffffffffffffffffbbbbbbbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbbbbbbbbbbbbfffffffffffffffffffbbb
@@ -125,6 +291,86 @@ bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbb
+`;
+            case "image6":
+            case "PowerLow":return img`
+f f f f f f f f f f f f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f 4 4 4 4 4 4 4 4 4 4 f 
+f 4 4 4 4 4 4 4 4 4 4 f 
+f 4 4 4 4 4 4 4 4 4 4 f 
+f f f f f f f f f f f f 
+`;
+            case "image5":
+            case "PowerHalf":return img`
+f f f f f f f f f f f f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 f 
+f f f f f f f f f f f f 
+`;
+            case "image4":
+            case "PowerFull":return img`
+f f f f f f f f f f f f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 f 
+f f f f f f f f f f f f 
+`;
+            case "image7":
+            case "PowerOff":return img`
+f f f f f f f f f f f f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . 2 2 . . . . f 
+f . . . . 2 2 . . . . f 
+f . . . . 2 2 . . . . f 
+f . . . . 2 2 . . . . f 
+f . . . . 2 2 . . . . f 
+f . . . . . . . . . . f 
+f . . . . 2 2 . . . . f 
+f . . . . 2 2 . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f . . . . . . . . . . f 
+f 2 2 2 2 2 2 2 2 2 2 f 
+f f f f f f f f f f f f 
 `;
         }
         return null;
