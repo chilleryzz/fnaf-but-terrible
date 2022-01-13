@@ -1,3 +1,5 @@
+story.printText("bug alert: do not spam doors it makes door break", 80, 60, 1, 0, story.TextSpeed.Slow)
+
 let leftDoorEnabled = true
 function closeLeftDoor () {
 	leftDoorEnabled = false
